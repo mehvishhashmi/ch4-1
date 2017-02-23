@@ -50,7 +50,14 @@ $statement->closeCursor();
     <h2>Add Category</h2>
     
     <!-- add code for the form here -->
-    
+ <form action="add_category.php" method="post"  id="add_category_form">
+
+ 	<label>Category Name:</label>
+ 	<input type="text" name="code"><br>
+        <label>&nbsp;</label>
+	<input type="submit" value="Add Category"><br>
+	 </form>
+				 
     <br>
     <p><a href="index.php">List Products</a></p>
 
